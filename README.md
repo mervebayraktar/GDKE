@@ -12,6 +12,11 @@ This dataset was collected following the February 6, 2023 Kahramanmaraş earthqu
   - Nurdağı (131), İskenderun (1196), İslahiye (113), Kırıkhan (804), Narlı (218), Onikişubat (89)
 - **annotated_samples/**: 266 annotated images with YOLO-format labels
   - Classes: collapsed building, non-collapsed building, tent
+## Sample Images
+
+| Collapsed Building | Non-collapsed Building | Tent |
+|---|---|---|
+| ![collapsed](36.56727,\ 36.15054.png) | ![non-collapsed](36.57391,\ 36.13245.png) | ![tent](36.58815,\ 36.18933.png) |
 
 ## Download
 Full dataset available on Zenodo: [https://doi.org/10.5281/zenodo.20123159](https://doi.org/10.5281/zenodo.20123159)
