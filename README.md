@@ -16,7 +16,7 @@ This dataset was collected following the February 6, 2023 Kahramanmaraş earthqu
 
 | Collapsed Building | Non-collapsed Building | Tent |
 |---|---|---|
-| ![collapsed](36.56727,%2036.15054.png) | ![non-collapsed](36.57391,%2036.13245.png) | ![tent](36.58815,%2036.18933.png) |
+| ![collapsed](36.56727,%2036.15217.png) | ![non-collapsed](36.57391,%2036.13245.png) | ![tent](36.58815,%2036.18933.png) |
 
 ## Download
 Full dataset available on Zenodo: [https://doi.org/10.5281/zenodo.20123159](https://doi.org/10.5281/zenodo.20123159)
