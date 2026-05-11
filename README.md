@@ -1,5 +1,4 @@
-# GDKE
-Geospatial Dataset of Kahramanmaraş Earthquakes (GDKE) - UAV imagery for collapsed building detection and road accessibility analysis
+
 # Geospatial Dataset of Kahramanmaraş Earthquakes (GDKE)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20123159.svg)](https://doi.org/10.5281/zenodo.20123159)
