@@ -1,17 +1,19 @@
-
 # Geospatial Dataset of Kahramanmaraş Earthquakes (GDKE)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20123159.svg)](https://doi.org/10.5281/zenodo.20123159)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20525474.svg)](https://doi.org/10.5281/zenodo.20525474)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Overview
-This dataset was collected following the February 6, 2023 Kahramanmaraş earthquakes. It contains high-resolution UAV imagery (1278×1274 px, GSD ~13 cm) captured from [atlas.gov.tr](https://atlas.gov.tr) across Hatay, Kahramanmaraş, and Gaziantep provinces.
+This dataset was collected following the February 6, 2023 Kahramanmaraş earthquakes. It contains high-resolution UAV imagery (1278×1274 px, GSD ~13 cm) captured from [atlas.gov.tr](https://atlas.gov.tr) across Hatay, Kahramanmaraş, and Gaziantep provinces. In addition to object-detection annotations, the dataset also includes example pixel-level mask samples to support semantic segmentation studies.
 
 ## Dataset Contents
 - **raw_images/**: 2,551 georeferenced UAV images organized by district
   - Nurdağı (131), İskenderun (1196), İslahiye (113), Kırıkhan (804), Narlı (218), Onikişubat (89)
 - **annotated_samples/**: 266 annotated images with YOLO-format labels
   - Classes: collapsed building, non-collapsed building, tent
+- **mask_samples/**: 146 example pixel-level segmentation masks
+  - Mask classes: background, non-collapsed building, collapsed building, tent
+
 ## Sample Images
 
 | Collapsed Building | Non-collapsed Building | Tent |
@@ -19,7 +21,7 @@ This dataset was collected following the February 6, 2023 Kahramanmaraş earthqu
 | ![collapsed](36.56727,%2036.15217.png) | ![non-collapsed](36.57391,%2036.13245.png) | ![tent](36.58815,%2036.18933.png) |
 
 ## Download
-Full dataset available on Zenodo: [https://doi.org/10.5281/zenodo.20123159](https://doi.org/10.5281/zenodo.20123159)
+Full dataset available on Zenodo: [https://doi.org/10.5281/zenodo.20525474](https://doi.org/10.5281/zenodo.20525474)
 
 ## License
 This dataset is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
